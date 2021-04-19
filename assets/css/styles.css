@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Mr Dafoe', cursive; */
+/* Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+
+@font-face {
+  font-family: santio1;
+  src: url("./SANTIO/OTP/Santio\ Black.otf");
+}
