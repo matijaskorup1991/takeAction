@@ -62,7 +62,8 @@ header > div {
 
 #hero > h1,
 #workers-us h1,
-h4 {
+h4,
+#end h2 {
   font-family: santio1;
 }
 
@@ -160,4 +161,41 @@ h4 {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+#end {
+  padding-top: 10vh;
+  background-color: #000;
+  color: #efefef;
+}
+
+#end aside {
+  width: 50%;
+  padding: 20vh 0 10vh 10%;
+}
+
+#end h2 {
+  font-size: 4.5rem;
+}
+
+#end div {
+  width: 150px;
+  border: 2px solid white;
+  margin-top: 10vh;
+  text-align: center;
+  padding: 20px;
+}
+
+#end div:hover {
+  box-shadow: 5px 5px #efefef;
+}
+
+footer {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #6bc1a3;
 }
