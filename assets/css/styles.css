@@ -8,3 +8,61 @@
   font-family: santio1;
   src: url("./SANTIO/OTP/Santio\ Black.otf");
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/cleo-topper.jpg") no-repeat center/cover;
+  background-position: fixed;
+  padding: 1rem 6rem 0 6rem;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header > img {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+header > div,
+#hero h1 {
+  color: #fff;
+}
+
+header > div {
+  border-bottom: 2px solid #e7bc0e;
+}
+
+#hero h1 {
+  font-family: santio1;
+  font-size: 5rem;
+  width: 40%;
+  margin-top: 32vh;
+}
+
+#hero h3 {
+  color: #e7bc0e;
+  font-family: "Mr Dafoe", cursive;
+  font-size: 2.5rem;
+  margin-top: 5rem;
+}
