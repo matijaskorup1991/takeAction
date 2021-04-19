@@ -49,21 +49,23 @@ header > img {
 
 header > div,
 #hero h1,
-#info span,
-#workers-us span,
-#pay span,
-#health span {
+span {
   color: #fff;
+}
+
+span {
+  background-color: #000;
+  display: inline-block;
+  line-height: 2rem;
 }
 
 header > div {
   border-bottom: 2px solid #e7bc0e;
 }
 
-#hero > h1,
-#workers-us h1,
-h4,
-#end h2 {
+h1,
+h2,
+h4 {
   font-family: santio1;
 }
 
@@ -93,9 +95,7 @@ h4,
   padding: 0 4rem 0 4rem;
 }
 
-#workers-us img,
-#pay img,
-#health img {
+img {
   width: 150px;
   height: 150px;
 }
@@ -112,14 +112,6 @@ h4,
   color: #e7bc0e;
   font-size: 2rem;
   padding: 1rem 0 20vh 0;
-}
-
-#workers-us span,
-#pay span,
-#health span {
-  background-color: #000;
-  display: inline-block;
-  line-height: 2rem;
 }
 
 #pay h4 {
