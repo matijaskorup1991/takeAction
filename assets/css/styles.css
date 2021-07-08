@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Mr Dafoe', cursive; */
 /* Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
 
 @font-face {
   font-family: santio1;
-  src: url("./SANTIO/OTP/Santio\ Black.otf");
+  src: url('./SANTIO/OTP/Santio\ Black.otf');
 }
 @font-face {
   font-family: santio2;
-  src: url("./SANTIO/OTP/Santio\ regular.otf");
+  src: url('./SANTIO/OTP/Santio\ regular.otf');
 }
 
 * {
@@ -20,17 +20,16 @@
 }
 
 html {
-  max-width: 1440px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #hero {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../img/cleo-topper.jpg") no-repeat center/cover;
+    url('../img/cleo-topper.jpg') no-repeat center/cover;
   background-attachment: fixed;
   padding: 1rem 6rem 0 6rem;
 }
@@ -77,7 +76,7 @@ h4 {
 
 #hero h3 {
   color: #e7bc0e;
-  font-family: "Mr Dafoe", cursive;
+  font-family: 'Mr Dafoe', cursive;
   font-size: 2.5rem;
   margin-top: 5rem;
 }
@@ -145,8 +144,8 @@ img {
 }
 
 #kid {
-  background: url("../img/see.png") no-repeat center/cover;
-  height: 100vh;
+  background: url('../img/see.png') no-repeat center/cover;
+  /* min-height: 100vh; */
 }
 
 #kid img {
@@ -190,4 +189,14 @@ footer {
 a {
   text-decoration: none;
   color: #6bc1a3;
+}
+
+@media (max-width: 992px) {
+  #hero > h1 {
+    width: 80%;
+  }
+
+  #end aside {
+    width: 70%;
+  }
 }
